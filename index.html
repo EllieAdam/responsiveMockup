@@ -1,0 +1,105 @@
+<html>
+<head>
+  <title>responsive</title>
+  <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="http://bradenhamm.com/store/SlickNav/slicknav.css" />
+	<link rel="stylesheet" type="text/css" href="global.css">
+	<link rel="stylesheet" href="http://bradenhamm.com/store/popup.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="main">
+
+		<div class="row-top">
+		  <div class="logo"><a href="#">logo</a></div>
+		  <div class="nav">
+			  <ul id="menu">
+			  	<li><a href="#">home</a></li>
+			  	<li><a href="#">about</a></li>
+			  	<li><a href="#">services</a></li>
+			  	<li><a href="#">projects</a></li>
+          <li><a href="#"></a>Market</li>
+          <li><a href="#"></a>Businesses</li>
+          <li><a href="#"></a>Clients</li>
+          <li><a href="#"></a>contact</li>
+			  </ul>
+		  </div>
+		</div>
+
+		<div class="row">
+		    <div class="column full">column full<br />
+				<a href="#test-popup" class="open-popup-link">popup example</a>
+			</div>
+		  </div>
+
+		  <div id="test-popup" class="white-popup mfp-hide">
+			  <h1>Awesome Design</h1>
+			  <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque necessitatibus nisi incidunt corporis odio amet! Odio dolores perferendis autem, minima temporibus corrupti optio! Dolorem, veritatis, cupiditate? Fugit hic, facilis praesentium.</span>
+			  <span>Tempore incidunt aspernatur laboriosam, qui quam, quia similique dicta minus ab. Ex nihil veniam dicta harum, optio ipsum eum praesentium, ipsam dolor dolores dignissimos. Velit hic assumenda ipsum voluptas illo!</span>
+			  <span>Placeat, ratione molestiae mollitia earum quia id laudantium! Repellendus dolores consequatur quia unde non accusantium ipsam, beatae voluptate cum quos quod voluptas quisquam sunt architecto tenetur ut sapiente dolorum atque.</span></p>
+			  <img src="http://placekitten.com/500/500"/>
+			  <br />
+			  <img src="http://placekitten.com/500/500"/>
+		  </div>
+
+		  <div class="row">
+		    <div class="column two-thirds">column two-thirds</div>
+		    <div class="column one-third">column one-third</div>
+		  </div>
+
+		  <div class="row">
+		    <div class="column half">column half</div>
+		    <div class="column half">column half</div>
+		  </div>
+
+		  <div class="row">
+		    <div class="column one-third">column one-third</div>
+		    <div class="column one-third">column one-third</div>
+		    <div class="column one-third">column one-third</div>
+		  </div>
+
+		  <div class="row">
+		    <div class="column one-fourth">column one-fourth</div>
+		    <div class="column one-fourth">column one-fourth</div>
+		    <div class="column one-fourth">column one-fourth</div>
+		    <div class="column one-fourth">column one-fourth</div>
+		  </div>
+
+		  <div class="row">
+		    <div class="column one-fourth">column one-fourth</div>
+		    <div class="column three-fourth">column three-fourth</div>
+		  </div>
+	</div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="http://bradenhamm.com/store/js/jquery.magnific-popup.js"></script>
+  	<script src="text/javascript">
+  		$(document).ready(function(){
+
+		});
+	</script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+	  $('.open-popup-link').magnificPopup({
+	    type: 'inline',
+  	  	midClick: true,
+		// Delay in milliseconds before popup is removed
+		removalDelay: 300,
+		// Class that is added to popup wrapper and background
+		// make it unique to apply your CSS animations just to this exact popup
+		mainClass: 'mfp-fade'
+	  	// other options
+	  });
+  });
+  </script>
+
+  <script src="http://bradenhamm.com/store/SlickNav/jquery.slicknav.js"></script>
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$('#menu').slicknav();
+  	});
+  </script>
+
+</body>
+</html>
